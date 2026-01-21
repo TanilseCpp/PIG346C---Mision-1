@@ -19,6 +19,6 @@ public class Empleado extends Persona {
     //♻️Sobreescritura de metodo, Polimorfismo
     @Override
     public void presentarse(){
-        System.out.println("Soy el empleado "+getNombre()+"y mi salario es "+salario);
+        System.out.println("Soy el empleado "+getNombre()+" y mi salario es "+salario);
     }
 }

@@ -19,6 +19,6 @@ public class Gerente extends Empleado{
     //♻️Sobreescritura de metodo, Polimorfismo
     @Override
     public void presentarse(){
-        System.out.println("Soy el gerente "+getNombre()+"y estoy a cargo del departamento de "+departamento);
+        System.out.println("Soy el gerente "+getNombre()+" y estoy a cargo del departamento de "+departamento);
     }
 }
